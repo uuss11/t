@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>موقعي الشخصي</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>أحمد محمد</h1>
+      <nav class="nav">
+        <a href="#about">نبذة</a>
+        <a href="#skills">المهارات</a>
+        <a href="#projects">المشاريع</a>
+        <a href="#contact">اتصل بي</a>
+        <button id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <img src="images/profile.jpg" alt="صورتي الشخصية" class="profile-pic" />
+      <h2>مرحباً بك في موقعي الشخصي!</h2>
+      <p>مطور واجهات أمامية ومحب للتصميم الجميل والوظيفي.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>نبذة عني</h2>
+      <p>
+        أنا أحمد محمد، مطور واجهات أمامية من مصر. أحب تطوير مواقع ويب جميلة وتفاعلية، وأستخدم HTML، CSS، وJavaScript لإنشاء تجارب مستخدم رائعة.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>مهارتي</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Tailwind CSS</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>مشاريعي</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="مشروع 1" />
+          <h3>مشروع أول</h3>
+          <p>موقع متجر إلكتروني بسيط باستخدام HTML/CSS.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="مشروع 2" />
+          <h3>مشروع ثاني</h3>
+          <p>تطبيق قائمة المهام باستخدام JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>اتصل بي</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="اسمك" required />
+        <input type="email" placeholder="بريدك الإلكتروني" required />
+        <textarea placeholder="رسالتك" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 أحمد محمد. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+    </html>
